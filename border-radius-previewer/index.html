@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Border-radius Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+
+        </div>
+    </div>
+    <div class="output">
+        <div class="sliders-div">
+            <input type="range" class="slide" id="top-left" min="0" max="50" step ="1" value="30">
+            <input type="range" class="slide" id="top-right" min="0" max="50" step ="1" value="30">
+            <input type="range" class="slide" id="bottom-right" min="0" max="50" step ="1" value="30">
+            <input type="range" class="slide" id="bottom-left" min="0" max="50" step ="1" value="30">
+        </div>
+        <span class="output-box"></span>
+        <button type="button" id="btn-copy">Copy!</button>
+        <!-- Maybe it is better to display each slider and it`s correspondent value side by side, especially if you have the 8 sliders version, or two boxes, one with the horizontal sliders and the other with vertical sliders and the values are display in the middle of them-->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

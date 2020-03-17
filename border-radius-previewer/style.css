@@ -1,0 +1,42 @@
+body {
+	background-color: #1d1f1f;
+}
+
+.inner {
+	height: 400px;
+	width: 400px;
+	background-image: radial-gradient(#f0f026, #6bc06b);
+	border: none;
+}
+
+.sliders-div {
+	margin: 0.5rem 1rem 1rem 0;
+	width: 100%;
+}
+
+.slide {
+	display: block;
+	width: 100%;
+}
+
+.outer {
+	background-color: #1d1f1f;
+	border: dashed 3px;
+	border-color: #dadada;
+	height: 400px;
+	width: 400px;
+	margin: auto auto;
+}
+
+.output {
+	margin: 1rem auto auto auto;
+	width: 375px;
+	background-color: #dadada;
+	padding: 1rem;
+	border-radius: 9%;
+}
+
+.output-box {
+	background-color: #dadada;
+	width: 100%;
+}
