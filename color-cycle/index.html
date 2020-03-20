@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Cycle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="panel">
+        <div class="header">
+            <h1 class="title">Color Cycle</h1>
+            <p>Choose your starting color, increments (2 digits hexadecimals only) and click the button!</p>
+        </div>
+        <div class="controls">
+            <span class="starting-colors">
+                <form>
+                    <label for="">Starting Colors:</label>
+                    <input type="text" class="input-red" id="starting-red" minlength="2" maxlength="2" value="FF" required>
+                    <input type="text" class="input-green" id="starting-green" minlength="2" maxlength="2" value="FF" required>
+                    <input type="text" class="input-blue" id="starting-blue" minlength="2" maxlength="2" value="FF" required>
+                </form>
+            </span>
+            <span class="increments">
+                <form>
+                    <label for="">Increments:</label>
+                    <input type="text" class="input-red" id="increment-red" minlength="2" maxlength="2" value="00" required>
+                    <input type="text" class="input-green" id="increment-green" minlength="2" maxlength="2" value="00" required>
+                    <input type="text" class="input-blue" id="increment-blue" minlength="2" maxlength="2" value="00" required>
+                </form>
+            </span>
+            <button type="button" class="btn-start">Start</button>
+        </div>
+    </div>
+    <div class="box"></div>
+    <script src="index.js"></script>
+</body>
+</html>
